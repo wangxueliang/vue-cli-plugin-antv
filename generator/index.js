@@ -30,6 +30,12 @@ module.exports = (api, opts, rootOptions) => {
         'babel-plugin-import': '^1.11.0'
       }
     })
+    api.extendPackage({
+      devDependencies: {
+        'less-loader': '^4.1.0',
+        'less': '^2.7.3'
+      }
+    })
   } else if (opts.customTheme) {
     api.render({
       './src/antd-variables.less': './templates/src/antd-variables.less'
