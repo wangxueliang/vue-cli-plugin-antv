@@ -8,7 +8,7 @@ import 'ant-design-vue/dist/antd.css'
 <%_ } _%>
 Vue.use(Antd)
 <%_ } else { _%>
-import { Pagination, LocaleProvider, Button } from 'ant-design-vue'
+import { Pagination, Button } from 'ant-design-vue'
 <%_ if (options.lang !== 'en_US') { _%>
 import { LocaleProvider } from 'ant-design-vue'
 <%_ } _%>
