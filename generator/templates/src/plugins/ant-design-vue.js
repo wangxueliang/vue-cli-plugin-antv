@@ -2,7 +2,7 @@ import Vue from 'vue'
 <%_ if (options.import === 'full') { _%>
 import Antd from 'ant-design-vue'
 <%_ if (options.customTheme) { _%>
-import '../antd-variables.scss'
+import '../antd-variables.less'
 <%_ } else { _%>
 import 'ant-design-vue/dist/antd.css'
 <%_ } _%>
