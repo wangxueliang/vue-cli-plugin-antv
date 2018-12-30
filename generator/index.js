@@ -53,7 +53,7 @@ module.exports = (api, opts, rootOptions) => {
       utils.updateBabelConfig(cfg => {
         const pluginComponent = ['import', {
           'libraryName': 'ant-design-vue',
-          'libraryDirectory': '', 
+          'libraryDirectory': 'es', 
           'style': true
         }]
         cfg.plugins = cfg.plugins || []
