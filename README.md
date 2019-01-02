@@ -19,7 +19,7 @@ You'll be asked some questions regarding how ant-design-vue is configured in you
 
 Skip this part if you've done everything in the `Install` section.
 
-If you prefer managing your project in vue-cli UI (by running `vue ui`), here's how you can add Ant-Design-Vue plugin: go to the Plugins menu, click the upper right `+ Add plugin` button, find `vue-cli-plugin-antv` and install it.
+If you prefer managing your project in vue-cli UI (by running `vue ui`), here's how you can add Ant-Design-Vue plugin: go to the Plugins menu, click the upper right `+ Add plugin` button, find `vue-cli-plugin-vue-cli-plugin-antv` and install it.
 
 ![image](https://user-images.githubusercontent.com/4122593/50544833-0b156280-0c3d-11e9-8c9f-34b6602b66f5.png)
 
